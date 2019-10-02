@@ -4,18 +4,12 @@ import Home from './Home';
 import Dashboard from './Dashboard';
 
 export default class App extends Component {
-  constructor(){
-    super()
-
-    this.state = {
-      loggedInStatus: "NOT_LOGGED_IN",
-      user: {}
-    }
-
-    this.handleLogin = this.handleLogin.bind(this);
+  state = {
+    loggedInStatus: "NOT_LOGGED_IN",
+    user: {}
   }
 
-  handleLogin(data){
+  handleLogin = (data) =>{
     this.setState({
       loggedInStatus: "LOGGED_IN",
       user: data.user
