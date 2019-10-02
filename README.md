@@ -1,24 +1,9 @@
-# README
+# Rails-React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blueprint for creating a React application with authentication features, such as registrations, signing in, signing out, and checking if a user is logged in via http only cookies provided by a Rails API app.
 
-Things you may want to cover:
+* Ruby version: 2.5.0
 
-* Ruby version
+* RubyOnRails version: 6.0
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* ReactJS version: 16.8.0
